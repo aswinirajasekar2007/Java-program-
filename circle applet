@@ -1,0 +1,14 @@
+import java.applet.Applet;
+import java.awt.Graphics;
+
+// Save as CircleApplet.java
+public class CircleApplet extends Applet {
+
+    public void paint(Graphics g) {
+        // Display text
+        g.drawString("This is a Circle", 90, 40);
+
+        // Draw circle
+        g.drawOval(80, 60, 150, 150);
+    }
+}
