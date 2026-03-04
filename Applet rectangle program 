@@ -1,0 +1,14 @@
+import java.applet.Applet;
+import java.awt.Graphics;
+
+// Save file as RectangleApplet.java
+public class RectangleApplet extends Applet {
+
+    public void paint(Graphics g) {
+        // Outer rectangle
+        g.drawRect(50, 50, 200, 100);
+
+        // Inner rectangle
+        g.drawRect(100, 75, 100, 50);
+    }
+}
